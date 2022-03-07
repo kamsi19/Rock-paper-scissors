@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; 
+    color: aliceblue;
+    font-family: 'Metal Mania', cursive, sans-serif, Verdana, Tahoma, sans-serif;
+    background-image: url(/images/simple\ bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+}
+
+header {
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 60px;
+        
+    height: 150px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+
+}
+
+.board h2{
+    padding: 20px;
+}
+
+.option {
+    flex-wrap: wrap;    
+    display: flex;  
+    flex-direction: row;
+    flex: 0 40%;
+    justify-content: center;    
+}
+
+button {
+    display: flex;  
+    flex-direction: column;
+    background-color: transparent;
+    align-items: center;
+    border-radius: 50%;
+    border: 3px solid white;
+    font-size: 20px;
+    padding: 20px;
+    margin-right: 100px;
+    margin-top: 20px;
+}
+
+
+.footer {
+    font-size: 30px;
+    margin-top: 50px;
+}
